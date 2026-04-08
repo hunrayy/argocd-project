@@ -26,7 +26,7 @@ jobs:
 
     - name: push the image built to dockerhub
       run: |
-        sudo docker push ${{ secrets.DOCKER_USERSNAME }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
+        sudo docker push ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
 
 
 
