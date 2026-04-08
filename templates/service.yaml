@@ -1,8 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name:  Service Name
-  namespace: app
+  name:  argocd-project-service
 spec:
   selector:
     app:  nginx
